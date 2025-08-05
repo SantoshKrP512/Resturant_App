@@ -23,7 +23,7 @@ function App() {
             <Route path='/about' element={<About mt="Yes" />} />
             <Route path='/menu' element={<Menu mt="Yes" />} />
             <Route path='/contact' element={<Contact mt="Yes" />} />
-            { <Route path='/cart' element={<Cart />} /> /* ✅ Add Cart Page */}
+            <Route path='/cart' element={<Cart />} />  {/* ✅ Add Cart Page */}
             <Route path='/payment' element={<Payment />} />  {/* ✅ Add Cart Page */}
           </Routes>
         </div>
